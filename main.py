@@ -27,6 +27,8 @@ target = pygame.transform.scale(target_img, (50, 50))
 running = True
 while running:
     screen.fill((color))
+    target_x += random.randint(-2, 2)
+    target_y += random.randint(-2, 2)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
