@@ -13,7 +13,7 @@ pygame.display.set_caption("Игра Тир")
 icon = pygame.image.load("image/blob.png")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("image/target.png")
+target_img = pygame.image.load("image/mischen.png")
 target_width = 50
 target_height = 50
 
